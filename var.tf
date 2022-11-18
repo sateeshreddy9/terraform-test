@@ -10,7 +10,7 @@ variable "type" {
 
 variable "key" {
   description = "keypair for Ec2 instance"
-  default     = "new"
+  default     = "rrrr"
 }
 
 variable "group" {
