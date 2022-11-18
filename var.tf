@@ -1,6 +1,6 @@
 variable "ami" {
   description = "Ami id for Ec2 instance"
-  default     = "ami-0e6329e222e662a52"
+  default     = "ami-072bfb8ae2c884cc4"
 }
 
 variable "type" {
@@ -15,5 +15,5 @@ variable "key" {
 
 variable "group" {
   description = "security groups for Ec2 instance"
-  default     = "launch-wizard-4"
+  default     = "launch-wizard-3"
 }
